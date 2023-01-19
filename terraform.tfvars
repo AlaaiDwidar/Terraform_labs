@@ -1,0 +1,15 @@
+vpc_cidr              = "10.0.0.0/16"
+vpc_name              = "my vpc"
+internet_gateway      = "internet-gateway"
+subnet_cidr           = ["10.0.0.0/24", "10.0.1.0/24"] 
+subnet_name           = ["public subnet", "private subnet"]
+public_cidr           = "0.0.0.0/0"
+ipv6_cidr_block       = "::/0"
+public_routing_table  = "public routing table"
+private_routing_table = "private routing table"
+nat_gateway           = "nat"
+security_group        = "security group"
+ami                   = "ami-06878d265978313ca"
+ec2_type              = "t2.micro"
+public_ec2_name       = "public-ec2"
+private_ec2_name      = "private-ec2"
